@@ -1,0 +1,13 @@
+:root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f3f6fb; color: #182a3c; }
+main { max-width: 920px; margin: 42px auto; padding: 0 20px 70px; }
+h1 { font-size: 34px; margin-bottom: 8px; }
+p { line-height: 1.7; }
+small { color: #5b718c; }
+.card { background: #fff; border: 1px solid #dbe5f0; border-radius: 16px; padding: 22px; margin-top: 18px; }
+button { border: 0; border-radius: 10px; padding: 12px 18px; background: #245f9e; color: white; font-weight: 650; cursor: pointer; }
+button:disabled { background: #9daec2; cursor: wait; }
+pre { overflow: auto; font-size: 12px; line-height: 1.6; background: #142338; color: #d7e7f8; padding: 18px; border-radius: 10px; }
+.header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: start; }
+.pill { background: #e5edf6; color: #345779; border-radius: 18px; padding: 7px 12px; font-size: 12px; }
